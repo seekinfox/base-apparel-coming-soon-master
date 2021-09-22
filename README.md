@@ -27,7 +27,7 @@ Users should be able to:
 
 ![Mobile-view](https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/Screenshot_2021-09-22%20Frontend%20Mentor%20Base%20Apparel%20coming%20soon%20page(1).png)
 ![Desktop-view](https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/Screenshot_2021-09-22%20Frontend%20Mentor%20Base%20Apparel%20coming%20soon%20page.png)
-
+![Desktop-view-active](https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/Screenshot_2021-09-22%20Frontend%20Mentor%20Base%20Apparel%20coming%20soon%20page(3).png)
 ### Links
 
 - Solution URL: [https://github.com/seekinfox/base-apparel-coming-soon-master](https://github.com/seekinfox/base-apparel-coming-soon-master)
