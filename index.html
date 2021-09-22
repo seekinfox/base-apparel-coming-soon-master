@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <script type="text/javascript" href="main.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  We're coming soon
+    <header>
+        <div class="logo">
+            <img src="https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/b7955a29284e66e0003c8435219b419adcdfc7f0/images/logo.svg" alt="LOGO">
+        </div>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    </header>
+    <main>
+        <div class="hero">
+            <img class="hero-mobile" src="https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/images/hero-mobile.jpg" alt="pretty-model">
+            <img class="hero-desktop" src="https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/images/hero-desktop.jpg" alt="">
+        </div>
+        <div class="desktop-section-two">
+            <p class="tag-line">
+                <span>We're</span> coming soon
+            </p>
+            <p class="paragraph">
+                Hello fellow shoppers! We're currently building our new fashion store.
+                Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
+            <div class="email">
 
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+                <input type="text" id="email" placeholder="Email Address">
+
+                <img class="warning-dot" id="dot" src="https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/b7955a29284e66e0003c8435219b419adcdfc7f0/images/icon-error.svg" alt="!!">
+                <a class="button" onclick="verify()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20">
+                        <path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671" />
+                    </svg>
+                </a>
+                <p class="warning" id="demo"></p>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
+
 </html>

@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html,
+main {
+    width: 100vw;
+    min-height: 100%;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+}
+
+:root {
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);
+    --Linear: linear-gradient: (135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%));
+    --Linear-two: linear-gradient (135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    max-width: 400px;
+    width: 100%;
+    min-width: 300px;
+}
+
+.logo img {
+    width: 100px;
+    margin: 2rem auto 2rem 2rem;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero .hero-desktop {
+    display: none;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.desktop-section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tag-line {
+    font-weight: 600;
+    color: var(--Dark-Grayish-Red);
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    letter-spacing: 0.6rem;
+    text-transform: uppercase;
+    padding: 3.6rem 4rem 1rem 4rem;
+}
+
+.tag-line span {
+    font-weight: 300;
+    color: var(--Desaturated-Red);
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 14px;
+    color: var(--Desaturated-Red);
+    line-height: 1.5;
+    padding: 0 2rem 2.1rem 2rem;
+}
+
+.email {
+    position: relative;
+    width: 19.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+input[type="text"] {
+    font-size: 13px;
+    border: none;
+    padding: 0.8rem 0 0.8rem 1.5rem;
+    width: 19.5rem;
+    outline: 0.5px solid hsla(0, 36%, 70%, 0.7);
+    border-radius: 2rem;
+    background: hsl(0, 100%, 98%);
+}
+
+/*email fail warning section*/
+.email .warning-dot {
+    width: 6%;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    right: 22%;
+}
+
+a {
+    display: flex;
+    width: 3.9rem;
+    height: 2.9rem;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border: none;
+    border-radius: 2rem;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    box-shadow: 0px 1rem 20px hsla(0, 36%, 70%, 0.2);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, hsl(0, 90%, 90%), hsl(0, 90%, 90%));
+    box-shadow: 0px 1rem 10px hsla(0, 36%, 70%, 0.5);
+}
+
+svg {
+    margin: auto;
+}
+
+/*email warning text section*/
+.warning {
+    align-self: flex-start;
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+    color: var(--Soft-Red);
+}
+
+::placeholder {
+    color: var(--Desaturated-Red);
+}
+
+@media (min-width: 1000px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        min-width: 100%;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        align-items: flex-start;
+    }
+    main::before {
+        content: "";
+        position: fixed;
+        min-height: 100%;
+        z-index: -1;
+        min-width: 100%;
+        background: url("https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/b7955a29284e66e0003c8435219b419adcdfc7f0/images/bg-pattern-desktop.svg");
+        background-size: 60% 100%;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        position: absolute;
+        top: 2rem;
+        padding-left: 9rem;
+    }
+
+    .logo img {
+        width: 8.5rem;
+    }
+
+    /*   image and para. section */
+    main {
+    
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .hero {
+        max-width: 42%;
+        width: 100%;
+        min-width: 30%;
+        height: 100%;
+    }
+
+    .hero .hero-mobile {
+        display: none;
+
+    }
+
+    .hero img.hero-desktop {
+        display: block;
+        width: 100%;
+    }
+
+    .desktop-section-two {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10rem;
+        margin-top: 4rem
+    }
+
+    .tag-line,
+    .paragraph {
+        padding-left: 0;
+        padding-right: 7rem;
+        text-align: left;
+    }
+    .paragraph {
+        font-size: 16px;
+        padding-bottom: 2.5rem;
+    }
+
+    .tag-line {
+        font-size: 3.9rem;
+        letter-spacing: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .email {
+        width: auto;
+    }
+
+    input[type="text"] {
+        width: 26.8rem;
+        padding: 1rem;
+    }
+
+    a {
+        width: 5rem;
+      height: 3.3rem;
+    }
+
+    .email .warning-dot {
+        right: 25%;
+    }
+}
