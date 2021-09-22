@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot.jpg)
+![Mobile-view](https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/Screenshot_2021-09-22%20Frontend%20Mentor%20Base%20Apparel%20coming%20soon%20page(1).png)
+![Desktop-view](https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/Screenshot_2021-09-22%20Frontend%20Mentor%20Base%20Apparel%20coming%20soon%20page(2).png)
 
 ### Links
 
@@ -34,6 +34,12 @@ Users should be able to:
 - Live Site URL: [https://seekinfox.github.io/base-apparel-coming-soon-master/](https://seekinfox.github.io/base-apparel-coming-soon-master/)
 
 ## My process
+  - plan a design structure 
+  - build structure with html
+  - use outline and style them without content or use text to get a idea. 
+  - add content and adjust style
+  - write a function to verify email
+  - adjust some small details.
 
 ### Built with
 
