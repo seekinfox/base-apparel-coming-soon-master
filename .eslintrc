@@ -7,3 +7,9 @@
         "es6": true
     }
 }
+"language": {
+    "javascript": {
+        "linting.prefer": ["JSHint"],
+        "linting.usePreferredOnly": true
+    }
+},

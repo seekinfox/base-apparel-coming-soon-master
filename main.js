@@ -1,3 +1,4 @@
+
 function verify() {
     "use strict";
     var regex = /\S+@\S+\.\S+/,

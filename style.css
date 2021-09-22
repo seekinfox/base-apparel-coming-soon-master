@@ -98,13 +98,20 @@ header {
 
 input[type="text"] {
     font-size: 13px;
-    border: none;
     padding: 0.8rem 0 0.8rem 1.5rem;
     width: 19.5rem;
-    outline: 0.5px solid hsla(0, 36%, 70%, 0.7);
-    border-radius: 2rem;
+/*    outline: 0.5px solid hsla(0, 36%, 70%, 0.7);*/
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border: 0.5px solid hsla(0, 36%, 70%, 0.7);
     background: hsl(0, 100%, 98%);
 }
+input[type="text"]:focus {
+    outline: none;
+    border: 0.5px solid hsla(0, 36%, 70%, 1);
+
+}
+
 
 /*email fail warning section*/
 .email .warning-dot {
@@ -118,9 +125,9 @@ input[type="text"] {
 a {
     display: flex;
     width: 3.9rem;
-    height: 2.9rem;
+    height: 2.65rem;
     position: absolute;
-    top: -1px;
+    top: 0px;
     right: -1px;
     border: none;
     border-radius: 2rem;
