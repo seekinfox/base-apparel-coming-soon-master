@@ -83,7 +83,7 @@ header {
     font-size: 14px;
     color: var(--Desaturated-Red);
     line-height: 1.5;
-    padding: 0 2rem 0 2rem;
+    padding: 0 2rem 2rem 2rem;
 }
 
 .email {
@@ -127,8 +127,8 @@ a {
     width: 3.9rem;
     height: 3rem;
     position: absolute;
+    top:0;
     right: 0%;
-    bottom: 69.5%;
     border: none;
     border-radius: 2rem;
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
