@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 
 ![Mobile-view](https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/Screenshot_2021-09-22%20Frontend%20Mentor%20Base%20Apparel%20coming%20soon%20page(1).png)
-![Desktop-view](https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/Screenshot_2021-09-22%20Frontend%20Mentor%20Base%20Apparel%20coming%20soon%20page(2).png)
+![Desktop-view](https://raw.githubusercontent.com/seekinfox/base-apparel-coming-soon-master/main/Screenshot_2021-09-22%20Frontend%20Mentor%20Base%20Apparel%20coming%20soon%20page.png)
 
 ### Links
 
