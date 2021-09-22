@@ -46,27 +46,12 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
+The challenge was unexpectedly challenging in terms of layout.
+I have made some silly errors in creating this layout but, it works for now.
+It solidified my relative and fixed units understanding.
+Creating a function to verify a email and using dom was a good practice.
+I will build  more mini-javascript projects.  
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@seekinfox](https://www.frontendmentor.io/profile/seekinfox)
