@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/seekinfox/base-apparel-coming-soon-master](https://github.com/seekinfox/base-apparel-coming-soon-master)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://seekinfox.github.io/base-apparel-coming-soon-master/](https://seekinfox.github.io/base-apparel-coming-soon-master/)
 
 ## My process
 
